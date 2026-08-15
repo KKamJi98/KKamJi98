@@ -14,6 +14,7 @@ Making services reliable and infrastructure repeatable.
 | 2026.04 | AWS KRUG 마곡 | EKS Pod Identity로 더 간편하게 Kubernetes 서비스 권한 관리하기 |
 | 2026.01 | RAPA x AWS Cloud School | AWS Cloud School 그리고 그 다음 이야기 |
 | 2025.09 | Cloud Native Korea Community Day 2025 | ArgoCD와 함께하는 Multi-Cluster 운영 |
+| 2024.06 | 제2회 AWS 강의실 온라인 세미나 | MicroK8s Cluster 구축하기 |
 
 ## Open Source
 
@@ -28,11 +29,12 @@ Making services reliable and infrastructure repeatable.
 
 ## Currently at Bungaejangter Inc.
 
-- EKS upgrades to 1.32+, Terraform module refactoring, AWS infrastructure provisioning
-- Packer-based golden image automation
-- In-house incident response AI agent
-- Replaced static AWS access keys with short-lived credentials
-- ClamAV server antivirus PoC and rollout
+- ~190 microservices running on EKS, including cluster upgrades to 1.32+
+- Keyless across two clouds: removed static AWS access keys, introduced GCP Workload Identity Federation
+- Global traffic analysis and bot traffic mitigation
+- Built and operate an in-house SRE agent for incident response
+- n8n in production for workflow automation
+- Introduced Packer golden images and ClamAV server antivirus
 
 ## Stack
 
