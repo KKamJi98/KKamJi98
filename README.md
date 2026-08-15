@@ -10,10 +10,10 @@ Making services reliable and infrastructure repeatable.
 
 | Date | Event | Talk |
 | --- | --- | --- |
-| 2026.05 | Open Source Summit North America 2026 | Troubleshooting Like a Senior on Day 1: ReAct Agents With Real-Time Cluster Evidence |
-| 2026.04 | AWS KRUG 마곡 | EKS Pod Identity로 더 간편하게 Kubernetes 서비스 권한 관리하기 |
+| 2026.05 | [Open Source Summit North America 2026](https://osselcna2026.sched.com) | Troubleshooting Like a Senior on Day 1: ReAct Agents With Real-Time Cluster Evidence |
+| 2026.04 | AWS KRUG 마곡 | [EKS Pod Identity로 더 간편하게 Kubernetes 서비스 권한 관리하기](https://github.com/KKamJi98/aws-krug-magok-2026) |
 | 2026.01 | RAPA x AWS Cloud School | AWS Cloud School 그리고 그 다음 이야기 |
-| 2025.09 | Cloud Native Korea Community Day 2025 | ArgoCD와 함께하는 Multi-Cluster 운영 |
+| 2025.09 | Cloud Native Korea Community Day 2025 | [ArgoCD와 함께하는 Multi-Cluster 운영](https://github.com/KKamJi98/kcd-2025) |
 | 2024.06 | 제2회 AWS 강의실 온라인 세미나 | MicroK8s Cluster 구축하기 |
 
 ## Open Source
@@ -31,11 +31,11 @@ Making services reliable and infrastructure repeatable.
 
 ## Currently at Bungaejangter Inc.
 
-- ~190 microservices running on EKS, including cluster upgrades to 1.32+
+- Run 150+ microservices on EKS: Istio service mesh, Gateway API, Envoy Gateway
 - Keyless across two clouds: removed static AWS access keys, introduced GCP Workload Identity Federation
 - Global traffic analysis and bot traffic mitigation
 - Built and operate an in-house SRE agent for incident response
-- n8n in production for workflow automation
+- Operate self-hosted n8n on Kubernetes as the automation platform other teams build on
 - Introduced Packer golden images and ClamAV server antivirus
 
 ## Stack
@@ -43,7 +43,7 @@ Making services reliable and infrastructure repeatable.
 | | |
 | --- | --- |
 | **Cloud** | AWS - EC2, EKS, ECS, RDS, VPC, CloudFront, Lambda, WAF, Route 53 |
-| **Kubernetes** | Helm, Karpenter, Cilium, Gateway API, Envoy, IRSA, Pod Identity |
+| **Kubernetes** | Istio, Helm, Karpenter, Cilium, Gateway API, Envoy Gateway, IRSA, Pod Identity |
 | **IaC / CI-CD** | Terraform, Packer, Jenkins, GitHub Actions, Argo CD |
 | **Observability** | Prometheus, Grafana, Thanos, Datadog, ELK |
 | **Security** | IAM, Keycloak SSO, RBAC, External Secrets, ClamAV |
