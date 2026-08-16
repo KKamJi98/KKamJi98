@@ -20,7 +20,7 @@ Making services reliable and infrastructure repeatable.
 
 - **[KubeRCA](https://github.com/kube-rca/kuberca)** - AI agents that root-cause Kubernetes alerts from live cluster evidence. Project lead, and the subject of the OSS Summit talk above
 - **[ssh-connector](https://github.com/KKamJi98/ssh-connector)** - turns `~/.ssh/config` into an interactive host picker, so connecting stops being a hostname you have to remember
-- **[aws-pick](https://github.com/KKamJi98/aws-pick)** - switches the default AWS CLI profile from a list, for shells that juggle several accounts
+- **[aws-profile-pick](https://github.com/KKamJi98/aws-profile-pick)** - `awspick` switches the default AWS CLI profile from a grouped, filterable list, for shells that juggle several accounts
 - **[wtree](https://github.com/KKamJi98/wtree)** - `wt` manages Git bare-repo worktrees in bulk, so a branch is a directory you cd into rather than a checkout you wait for. On PyPI
 - **[prjump](https://github.com/KKamJi98/prjump)** - `prj` opens the GitHub or Bitbucket pull request for the current branch straight from the shell. On PyPI
 
