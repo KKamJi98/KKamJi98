@@ -24,6 +24,10 @@ Making services reliable and infrastructure repeatable.
 - **[wtree](https://github.com/KKamJi98/wtree)** - `wt` manages Git bare-repo worktrees in bulk, so a branch is a directory you cd into rather than a checkout you wait for. On PyPI
 - **[prjump](https://github.com/KKamJi98/prjump)** - `prj` opens the GitHub or Bitbucket pull request for the current branch straight from the shell. On PyPI
 
+## Security Research
+
+- **[CVE-2026-87776](https://github.com/advisories/GHSA-vc2v-76pw-4v95)** / [GHSA-vc2v-76pw-4v95](https://github.com/expressjs/compression/security/advisories/GHSA-vc2v-76pw-4v95) - credited as **Finder** on the Express.js `compression` advisory. When a client hung up mid-response, the zlib stream was never destroyed, so repeatedly aborted requests leaked native memory until the process fell over. Found it from heap snapshots while chasing steadily climbing memory on a self-hosted n8n instance. High, CVSS 7.5; fixed in compression 1.8.2
+
 ## Contribute
 
 - [grafana/loki#24300](https://github.com/grafana/loki/pull/24300) - clarified the default `fake` tenant directory for Ruler local storage in single-tenant mode and how it differs from `rule_path`
