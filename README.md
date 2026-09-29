@@ -30,6 +30,7 @@ Making services reliable and infrastructure repeatable.
 
 ## Contribute
 
+- [oras-project/oras#2201](https://github.com/oras-project/oras/pull/2201) - made absolute-path push and attach errors explain the security risk before suggesting the opt-out flag
 - [oras-project/oras-www#610](https://github.com/oras-project/oras-www/pull/610) - fixed the docs, blog, and community "Edit this page" links so they open GitHub's edit flow instead of a read-only tree view
 - [jaegertracing/jaeger-ui#4412](https://github.com/jaegertracing/jaeger-ui/pull/4412) - made the span-details divider draggable from the timeline header: moved the resizer into `TimelineHeaderRow` so one divider owns the boundary instead of two instances coordinated by CSS
 - [grafana/loki#24300](https://github.com/grafana/loki/pull/24300) - clarified the default `fake` tenant directory for Ruler local storage in single-tenant mode and how it differs from `rule_path`
