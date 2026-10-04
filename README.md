@@ -65,6 +65,7 @@ Making services reliable and infrastructure repeatable.
 - AWS Certified Solutions Architect - Associate
 - Certified Kubernetes Administrator
 - HashiCorp Certified: Terraform Associate
+- Engineer Information Processing (정보처리기사)
 
 ## Awards
 
