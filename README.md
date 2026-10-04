@@ -30,6 +30,7 @@ Making services reliable and infrastructure repeatable.
 
 ## Contribute
 
+- [kyverno/kyverno#17840](https://github.com/kyverno/kyverno/pull/17840) - fixed the Helm pre-delete hook to target the release's namespace and fullname; added render regression checks
 - [oras-project/oras#2201](https://github.com/oras-project/oras/pull/2201) - made absolute-path push and attach errors explain the security risk before suggesting the opt-out flag
 - [oras-project/oras-www#610](https://github.com/oras-project/oras-www/pull/610) - fixed the docs, blog, and community "Edit this page" links so they open GitHub's edit flow instead of a read-only tree view
 - [jaegertracing/jaeger-ui#4412](https://github.com/jaegertracing/jaeger-ui/pull/4412) - made the span-details divider draggable from the timeline header: moved the resizer into `TimelineHeaderRow` so one divider owns the boundary instead of two instances coordinated by CSS
