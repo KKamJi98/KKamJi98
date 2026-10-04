@@ -61,7 +61,10 @@ Making services reliable and infrastructure repeatable.
 
 ## Certifications
 
-AWS DevOps Engineer Professional · AWS Solutions Architect Associate · CKA · HashiCorp Terraform Associate
+- AWS DevOps Engineer Professional
+- AWS Solutions Architect Associate
+- CKA
+- HashiCorp Terraform Associate
 
 ## Awards
 
