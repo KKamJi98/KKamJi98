@@ -30,6 +30,7 @@ Making services reliable and infrastructure repeatable.
 
 ## Contribute
 
+- [envoyproxy/gateway#10066](https://github.com/envoyproxy/gateway/pull/10066) - fixed gateway-wide ClientTrafficPolicy port-overlap validation for Gateways with shared name prefixes; added regression coverage
 - [kyverno/kyverno#17840](https://github.com/kyverno/kyverno/pull/17840) - fixed the Helm pre-delete hook to target the release's namespace and fullname; added render regression checks
 - [oras-project/oras#2201](https://github.com/oras-project/oras/pull/2201) - made absolute-path push and attach errors explain the security risk before suggesting the opt-out flag
 - [oras-project/oras-www#610](https://github.com/oras-project/oras-www/pull/610) - fixed the docs, blog, and community "Edit this page" links so they open GitHub's edit flow instead of a read-only tree view
