@@ -30,6 +30,7 @@ Making services reliable and infrastructure repeatable.
 
 ## Contribute
 
+- [prometheus/client_rust#371](https://github.com/prometheus/client_rust/pull/371) - rejected counter names ending in `_total` when debug assertions are enabled; improved panic diagnostics
 - [envoyproxy/gateway#10066](https://github.com/envoyproxy/gateway/pull/10066) - fixed gateway-wide ClientTrafficPolicy port-overlap validation for Gateways with shared name prefixes; added regression coverage
 - [kyverno/kyverno#17840](https://github.com/kyverno/kyverno/pull/17840) - fixed the Helm pre-delete hook to target the release's namespace and fullname; added render regression checks
 - [oras-project/oras#2201](https://github.com/oras-project/oras/pull/2201) - made absolute-path push and attach errors explain the security risk before suggesting the opt-out flag
