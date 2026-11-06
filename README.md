@@ -51,7 +51,7 @@ Making services reliable and infrastructure repeatable.
 
 ## Stack
 
-| | |
+| Category | Technologies |
 | --- | --- |
 | **Cloud** | AWS - EC2, EKS, ECS, RDS, VPC, CloudFront, Lambda, WAF, Route 53 |
 | **Kubernetes** | Istio, Helm, Karpenter, Cilium, Gateway API, Envoy Gateway, IRSA, Pod Identity |
