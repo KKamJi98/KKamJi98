@@ -63,6 +63,7 @@ Making services reliable and infrastructure repeatable.
 
 ## Certifications
 
+- AWS Certified Solutions Architect - Professional
 - AWS Certified DevOps Engineer - Professional
 - AWS Certified Solutions Architect - Associate
 - Certified Kubernetes Administrator
